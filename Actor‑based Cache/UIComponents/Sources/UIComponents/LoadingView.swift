@@ -8,15 +8,15 @@
 import SwiftUI
 
 public struct Loading: View {
-    
+
     public init() {}
-    
+
     public var body: some View {
         VStack {
             ProgressView()
                 .progressViewStyle(CircularProgressViewStyle())
                 .scaleEffect(1.5)
-            
+
             Text("Загрузка...")
                 .font(.caption)
                 .foregroundStyle(.gray)

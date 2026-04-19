@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct ProfileRepresentable: UIViewControllerRepresentable {
-    
+
     typealias UIViewControllerType = ProfileViewController
-    
+
     func makeUIViewController(context: Context) -> ProfileViewController {
         let service = UserService()
         let viewController = ProfileViewController(userService: service)
         return viewController
     }
-    
+
     func updateUIViewController(_ uiViewController: ProfileViewController, context: Context) {
-        
+
     }
 }

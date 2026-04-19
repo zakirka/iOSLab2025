@@ -46,9 +46,9 @@
 			path = "Actor‑based Cache";
 			sourceTree = "<group>";
 		};
-		5CE2697F2F95391200BA4B1E /* Actor‑based CacheTests */ = {
+		5CE2697F2F95391200BA4B1E /* ActorBasedCacheTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Actor‑based CacheTests";
+			path = ActorBasedCacheTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -78,7 +78,7 @@
 			children = (
 				5CE269722F949F6900BA4B1E /* UIComponents */,
 				5CE269442F937EC800BA4B1E /* Actor‑based Cache */,
-				5CE2697F2F95391200BA4B1E /* Actor‑based CacheTests */,
+				5CE2697F2F95391200BA4B1E /* ActorBasedCacheTests */,
 				5CE269732F94A44A00BA4B1E /* Frameworks */,
 				5CE269432F937EC800BA4B1E /* Products */,
 			);
@@ -141,7 +141,7 @@
 				5CE269832F95391200BA4B1E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5CE2697F2F95391200BA4B1E /* Actor‑based CacheTests */,
+				5CE2697F2F95391200BA4B1E /* ActorBasedCacheTests */,
 			);
 			name = "Actor‑based CacheTests";
 			packageProductDependencies = (

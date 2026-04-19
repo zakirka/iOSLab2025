@@ -9,7 +9,7 @@ import SwiftUI
 import UIComponents
 
 struct ContentView: View {
-    
+
     var body: some View {
         VStack {
             Loading()
@@ -17,9 +17,9 @@ struct ContentView: View {
             ProfileRepresentable()
                 .frame(height: 400)
                 .background(Color.yellow.opacity(0.1))
-            
+
             Spacer()
         }
-        
+
     }
 }

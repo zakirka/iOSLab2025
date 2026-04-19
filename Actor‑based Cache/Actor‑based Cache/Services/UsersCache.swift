@@ -9,7 +9,7 @@ import Foundation
 
 actor UsersCache {
     private var storage: [Int: User] = [:]
-    
+
     func user(for id: Int) -> User? {
         if let cached = storage[id] {
             print("Пользователь \(id) найден в системе")
@@ -18,7 +18,7 @@ actor UsersCache {
         print("Пользователь \(id) не найден в системе")
         return nil
     }
-    
+
     func save(_ user: User ) {
         storage[user.id] = user
         print("Пользователь \(user.id) сохранен в системе")
