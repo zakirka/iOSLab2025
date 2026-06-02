@@ -1,0 +1,15 @@
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+.swiftpm/
+.build/
+
+# Игнорируем соседние папки
+../Favorites Manager/
+../Actor‐based Cache/
+../Recipe Grid/
+../UserLoading/
+../*.playground/
+../*.txt
